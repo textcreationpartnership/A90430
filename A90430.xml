@@ -1,0 +1,288 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Caledonia triumphans: a panegyrick to the King.</title>
+            <author>Pennecuik, Alexander, 1652-1722.</author>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <date>1699</date>
+            </edition>
+         </editionStmt>
+         <extent>Approx. 8 KB of XML-encoded text transcribed from 3 1-bit group-IV TIFF page images.</extent>
+         <publicationStmt>
+            <publisher>Text Creation Partnership,</publisher>
+            <pubPlace>Ann Arbor, MI ; Oxford (UK) :</pubPlace>
+            <date when="2011-04">2011-04 (EEBO-TCP Phase 2).</date>
+            <idno type="DLPS">A90430</idno>
+            <idno type="STC">Wing P1395A</idno>
+            <idno type="STC">ESTC R181637</idno>
+            <idno type="EEBO-CITATION">45097890</idno>
+            <idno type="OCLC">ocm 45097890</idno>
+            <idno type="VID">171469</idno>
+            <availability>
+               <p>To the extent possible under law, the Text Creation Partnership has waived all copyright and related or neighboring rights to this keyboarded and encoded edition of the work described above, according to the terms of the CC0 1.0 Public Domain Dedication (http://creativecommons.org/publicdomain/zero/1.0/). This waiver does not extend to any page images or other supplementary files associated with this work, which may be protected by copyright or other license restrictions. Please go to https://www.textcreationpartnership.org/ for more information about the project.</p>
+            </availability>
+         </publicationStmt>
+         <seriesStmt>
+            <title>Early English books online.</title>
+         </seriesStmt>
+         <notesStmt>
+            <note>(EEBO-TCP ; phase 2, no. A90430)</note>
+            <note>Transcribed from: (Early English Books Online ; image set 171469)</note>
+            <note>Images scanned from microfilm: (Early English books, 1641-1700 ; 2575:14)</note>
+         </notesStmt>
+         <sourceDesc>
+            <biblFull>
+               <titleStmt>
+                  <title>Caledonia triumphans: a panegyrick to the King.</title>
+                  <author>Pennecuik, Alexander, 1652-1722.</author>
+               </titleStmt>
+               <extent>1 sheet ([1] p.).   </extent>
+               <publicationStmt>
+                  <publisher>Printed by the heirs and successors of Andrew Anderson ...,</publisher>
+                  <pubPlace>Edinburgh, :</pubPlace>
+                  <date>1699.</date>
+               </publicationStmt>
+               <notesStmt>
+                  <note>Caption title.</note>
+                  <note>Signed: By a Lover of Caledonia, and the Muses.</note>
+                  <note>Attributed to Pennecuik by Wing.</note>
+                  <note>Reproduction of original in the John Carter Brown Library.</note>
+               </notesStmt>
+            </biblFull>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Created by converting TCP files to TEI P5 using tcp2tei.xsl,
+      TEI @ Oxford.
+      </p>
+         </projectDesc>
+         <editorialDecl>
+            <p>EEBO-TCP is a partnership between the Universities of Michigan and Oxford and the publisher ProQuest to create accurately transcribed and encoded texts based on the image sets published by ProQuest via their Early English Books Online (EEBO) database (http://eebo.chadwyck.com). The general aim of EEBO-TCP is to encode one copy (usually the first edition) of every monographic English-language title published between 1473 and 1700 available in EEBO.</p>
+            <p>EEBO-TCP aimed to produce large quantities of textual data within the usual project restraints of time and funding, and therefore chose to create diplomatic transcriptions (as opposed to critical editions) with light-touch, mainly structural encoding based on the Text Encoding Initiative (http://www.tei-c.org).</p>
+            <p>The EEBO-TCP project was divided into two phases. The 25,368 texts created during Phase 1 of the project (2000-2009), initially available only to institutions that contributed to their creation, were released into the public domain on 1 January 2015. The approximately 40,000 texts produced during Phase 2 (2009- ), of which 34,963 had been released as of 2020, originally similarly restricted, were similarly freed from all restrictions on 1 August 2020. As of that date anyone is free to take and use these texts for any purpose (modify them, annotate them, distribute them, etc.). But we do respectfully request that due credit and attribution be given to their original source.</p>
+            <p>Users should be aware of the process of creating the TCP texts, and therefore of any assumptions that can be made about the data.</p>
+            <p>Text selection was based on the New Cambridge Bibliography of English Literature (NCBEL). If an author (or for an anonymous work, the title) appears in NCBEL, then their works are eligible for inclusion. Selection was intended to range over a wide variety of subject areas, to reflect the true nature of the print record of the period. In general, first editions of a works in English were prioritized, although there are a number of works in other languages, notably Latin and Welsh, included and sometimes a second or later edition of a work was chosen if there was a compelling reason to do so.</p>
+            <p>Image sets were sent to external keying companies for transcription and basic encoding. Quality assurance was then carried out by editorial teams in Oxford and Michigan. 5% (or 5 pages, whichever is the greater) of each text was proofread for accuracy and those which did not meet QA standards were returned to the keyers to be redone. After proofreading, the encoding was enhanced and/or corrected and characters marked as illegible were corrected where possible up to a limit of 100 instances per text. Any remaining illegibles were encoded as &lt;gap&gt;s. Understanding these processes should make clear that, while the overall quality of TCP data is very good, some errors will remain and some readable characters will be marked as illegible. Users should bear in mind that in all likelihood such instances will never have been looked at by a TCP editor.</p>
+            <p>The texts were encoded and linked to page images in accordance with level 4 of the TEI in Libraries guidelines.</p>
+            <p>Copies of the texts have been issued variously as SGML (TCP schema; ASCII text with mnemonic sdata character entities); displayable XML (TCP schema; characters represented either as UTF-8 Unicode or text strings within braces); or lossless XML (TEI P5, characters represented either as UTF-8 Unicode or TEI g elements).</p>
+            <p>Keying and markup guidelines are available at the <ref target="http://www.textcreationpartnership.org/docs/.">Text Creation Partnership web site</ref>.</p>
+         </editorialDecl>
+         <listPrefixDef>
+            <prefixDef ident="tcp"
+                       matchPattern="([0-9\-]+):([0-9IVX]+)"
+                       replacementPattern="http://eebo.chadwyck.com/downloadtiff?vid=$1&amp;page=$2"/>
+            <prefixDef ident="char"
+                       matchPattern="(.+)"
+                       replacementPattern="https://raw.githubusercontent.com/textcreationpartnership/Texts/master/tcpchars.xml#$1"/>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="eng">eng</language>
+         </langUsage>
+         <textClass>
+            <keywords scheme="http://authorities.loc.gov/">
+               <term>William --  III, --  King of England, 1650-1702 --  Poetry.</term>
+               <term>Broadsides --  England --  17th century.</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change>
+            <date>2009-02</date>
+            <label>TCP</label>Assigned for keying and markup</change>
+         <change>
+            <date>2009-03</date>
+            <label>SPi Global</label>Keyed and coded from ProQuest page images</change>
+         <change>
+            <date>2009-04</date>
+            <label>Pip Willcox</label>Sampled and proofread</change>
+         <change>
+            <date>2009-04</date>
+            <label>Pip Willcox</label>Text and markup reviewed and edited</change>
+         <change>
+            <date>2009-09</date>
+            <label>pfs</label>Batch review (QC) and XML conversion</change>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="eng">
+      <body>
+         <div type="panegyric_poem">
+            <pb facs="tcp:171469:1" rendition="simple:additions"/>
+            <!-- PDF PAGE 43 -->
+            <pb facs="tcp:171469:2" rendition="simple:additions"/>
+            <!-- PDF PAGE 44 -->
+            <head>Caledonia Triumphans: A PANEGYRICK To the KING.</head>
+            <lg>
+               <l>THrice mighty PRINCE, Illuſtrious by thy Birth,</l>
+               <l>
+                  <hi>Bellona</hi>'s Glory: Splendor of the Earth.</l>
+               <l>Wonder of Brav'ry, and of charming Parts,</l>
+               <l>Great Conquerour of Kingdoms and of Hearts,</l>
+               <l>All the fam'd Hero's in our Age that be,</l>
+               <l>Quite loſe their Luſtre, when compar'd with Thee.</l>
+               <l>Bleſſed <hi>Peace-maker</hi> in our Bloody Wars,</l>
+               <l>Wiſe Reconciler of Inteſtine Jarrs.</l>
+               <l>The Martial <hi>THISTLE</hi> budds, and no more withers,</l>
+               <l>The fragrant <hi>ROSE</hi> it's Scent again recovers.</l>
+               <l>The <hi>HARP</hi> is tun'd: And valiant SIR, to Thee,</l>
+               <l>The Conquering <hi>LILLIES</hi> bowe and humbled be.</l>
+               <l>The Ballance of all <hi>Europe</hi> SIR, is Your's,</l>
+               <l>Sole Help and Shelter of oppreſſed Powers.</l>
+               <l>No Mortal in his Veins bears nobler Blood,</l>
+               <l>Sprung from a Race, both Ancient, Great and Good,</l>
+               <l>Defenders of our Faith, to Pop'ry Foes,</l>
+               <l>This <hi>Holland, Flanders,</hi> and all <hi>Europe</hi> knows.</l>
+               <l>O! happy ORANGE-TREE, both Branch and Root,</l>
+               <l>That hath bleſt <hi>Britain</hi> with ſuch cordial Fruit,</l>
+               <l>Yea, thoſe that in the Northern World do dwell,</l>
+               <l>Are much refreſhed by the very Smell.</l>
+               <l>Which perfumes all our European Coſts,</l>
+               <l>Through <hi>Boreas</hi> Blaſts and <hi>Hyperborean</hi> Froſt.</l>
+               <l>To your own <hi>Thule,</hi> and the <hi>Orkney</hi> Iſles,</l>
+               <l>And round cold <hi>Ruſſia</hi> many thouſand Miles.</l>
+               <l>Which rare Accompliſhments that ſhine in You,</l>
+               <l>Makes <hi>CALEDONIA</hi> thus her Caſe renew.</l>
+            </lg>
+            <lg>
+               <l>Now if Great SIR, you liſt to lend an Ear,</l>
+               <l>From a far <hi>Countrey,</hi> joyful News we hear,</l>
+               <l>
+                  <hi>Zephyrus</hi> gently blows, and Whiſtling, Sings,</l>
+               <l>Here, my ſweet Gales, delicious Tydings brings.</l>
+               <l>
+                  <hi>Fourth</hi> of <hi>November,</hi> that auſpicious Day,</l>
+               <l>Your valiant <hi>SCOTS</hi> their Colours did diſplay,</l>
+               <l>Into the <hi>Western World,</hi> where they did meet,</l>
+               <l>Thouſands of Welcomes proſtrat at their Feet.</l>
+               <l>The Soveraign Director was their Guide,</l>
+               <l>
+                  <hi>Neptune</hi> them favour'd; Earth, Seas, Wind and Tyde.</l>
+               <l>The Natives made their Joyes ring to the Skyes,</l>
+               <l>And them ador'd as Demi-deitys.</l>
+               <l>Kind harmleſs Heathens, whom through time we vow,</l>
+               <l>To train good Subjects both to GOD and You.</l>
+               <l>St. <hi>ANDREW</hi> our firſt Tutelar was he,</l>
+               <l>The <hi>
+                     <g ref="char:V">Ʋ</g>NICORN,</hi> muſt next Supporter be,</l>
+               <l>The <hi>CALEDONIA</hi> doth bring up the Rear,</l>
+               <l>Fraught with brave hardy Ladds, and void of Fear;</l>
+               <l>All ſplendedly equipt, and to the Three,</l>
+               <l>The <hi>Endeavour</hi> and <hi>Dolphin</hi> Hand-maids be.</l>
+               <l>Who to theſe Praiſes, this Addition have,</l>
+               <l>No Injuries they'l give, nor yet receive.</l>
+               <l>Both Ships and Men commanded Sir, it's true,</l>
+               <l>By Captains both of Senſe and Honour too.</l>
+               <l>Nor are theſe Youths the Scum of this our Land,</l>
+               <l>But in effect, a brave and generous Band.</l>
+               <l>Inſpyr'd with thirſt of Fame, and fond to have,</l>
+               <l>Titles upon the Marbles of their Grave.</l>
+               <l>And though that hundreds in that Train do come,</l>
+               <l>Whoſe Vertues are eclipſt with want at Home.</l>
+               <l>Yet were there Means but equal to their Mind,</l>
+               <l>In all the World you ſhould not braver find.</l>
+               <l>But to allay Youths raſh unwary Deeds,</l>
+               <l>They have their Orders ſent from elder Heads.</l>
+               <l>Of a wiſe <hi>Senat,</hi> who Conſult and Vote,</l>
+               <l>What is the <hi>Companys</hi> Int'reſt, and what not.</l>
+               <l>At Landing, Fertile Fields and Golden Mountains,</l>
+               <l>Saluted them, with clear and chriſtal Fountains;</l>
+               <l>Roots, Flowers and Fruits, for Phyſick, and to eat,</l>
+               <l>And neither pinching Colds, nor ſcorching Heat.</l>
+               <l>Rivers, ſafe Bayes, variety of Plants,</l>
+               <l>And uſeful Trees which our old <hi>Britain</hi> wants.</l>
+               <l>Here grows the <hi>Nicaragua, Manchionell,</hi>
+               </l>
+               <l>
+                  <hi>Vannileos</hi> alſo, that perfumes ſo well.</l>
+               <l>Our ſable night is gone, the day is won,</l>
+               <l>The SCOTS are follow'd with the <hi>RISING-S<g ref="char:V">Ʋ</g>N.</hi>
+               </l>
+               <l>The Ev'ning crowns the Day, and what remains?</l>
+               <l>Old <hi>ALBANY</hi> its antient Fame regains.</l>
+               <l>
+                  <hi>FERG<g ref="char:V">Ʋ</g>S</hi> 1ſt. Your brave Anceſtor gave the <hi>Scots</hi> of old</l>
+               <l>
+                  <hi>FERG<g ref="char:V">Ʋ</g>S</hi> 1ſt. A <hi>Lyon rampant</hi> in a field of Gold.</l>
+               <l>When he our Coat-Armorial did diſpenſe,</l>
+               <l>Which now is ours, in a true literal Senſe.</l>
+               <l>And can our Breaſts ſuch ſwelling Joys contain,</l>
+               <l>
+                  <hi>WILLIAM</hi> the <hi>Lyon</hi> rules the SCOTS again:</l>
+               <l>A Nation who with hearts, with hands and head</l>
+               <l>Will ſerve you, Soveraign Sir, in time of need.</l>
+               <l>Warlike <hi>Gustavus,</hi> and Great <hi>Charl le maigne,</hi>
+               </l>
+               <l>Did ne're employ our Martial Swords in vain.</l>
+               <l>The <hi>Brittons, Romans, Saxons</hi> and the <hi>Danes,</hi>
+               </l>
+               <l>Did all invade Us, but with fruitleſs Pains.</l>
+               <l>The treach'rous <hi>Picts</hi> did oft attempt the ſame;</l>
+               <l>But for Reward, loſt Countrey, Life and Name.</l>
+               <l>The noble Race of <hi>Douglaſs</hi> did excell</l>
+               <l>In Military Glory, all can tell</l>
+               <l>At Home, and Forraign Shoars, yea, ever ſtill,</l>
+               <l>Of all the Sirname, very few prove ill.</l>
+               <l>The antient <hi>Grahams</hi> are brave, and all confeſs,</l>
+               <l>True to their Sov'raigns, chiefly in diſtreſs.</l>
+               <l>The <hi>Danes</hi> who made our neighb'ring Nation Slaves,</l>
+               <l>Found here the <hi>Hays</hi> who beat them to their Graves.</l>
+               <l>Kind <hi>Mantua</hi> hath never yet forgot</l>
+               <l>Rare <hi>Creighton,</hi> call'd the <hi>Admirable Scot,</hi>
+               </l>
+               <l>Whoſe Life ſhews him a Miracle of Men:</l>
+               <l>As it is drawn by an <hi>Italian</hi> Pen.</l>
+               <l>
+                  <hi>Wallace</hi> and <hi>Bruce,</hi> I ſhall not now rehearſe,</l>
+               <l>Leaſt I offend you, Sir, with tedious Verſe.</l>
+               <l>And hundreds more of undenyed Fame,</l>
+               <l>For Arts and Arms, whom I forbear to name.</l>
+               <l>And as our Valour flew all <hi>Europe</hi> round,</l>
+               <l>So now our Trade ſcarce both the Poles ſhall bound.</l>
+               <l>If You but own us, Mighty Sir, and then</l>
+               <l>No Devils we fear, nor yet malicious Men.</l>
+               <l>What humane Counter-plot can marr the thing,</l>
+               <l>That is protected by <hi>Great-Britains</hi> King.</l>
+               <l>Our Claim is juſt: and ſo we value not</l>
+               <l>The Brags of <hi>Spain,</hi> nor Thundrings of the Pope,</l>
+               <l>Who may well threaten; Yet <hi>Don</hi> dare not fight,</l>
+               <l>When he minds <hi>DARIEN,</hi> and old <hi>Eighty eight.</hi>
+               </l>
+               <l>Their Cruelties were Catholick indeed,</l>
+               <l>Not Chriſtian, to poor <hi>Indians</hi> and their Seed.</l>
+               <l>But thoſe they call Hereticks of our Nation,</l>
+               <l>We hope will ſhew a meeker Reformation.</l>
+               <l>Nor ſhall inſulting Neighbours henceforth taunt</l>
+               <l>The gen'rous SCOTS, for Poverty and Want.</l>
+               <l>Our Ships through all the World ſhall go and come,</l>
+               <l>Ev'n from the Riſing to the Setting Sun.</l>
+               <l>Then ſhall we from the genuine Spring command,</l>
+               <l>What now we truckle at a ſecond hand.</l>
+               <l>And we ſhall flouriſh by your Royal Rays,</l>
+               <l>With Honour, Riches, and old <hi>Neſtors</hi> days:</l>
+               <l>And ever bleſs our GOD, and praiſe our KING,</l>
+               <l>And <hi>CALEDONIA</hi>'s Triumphs gladly ſing.</l>
+            </lg>
+            <q>
+               <l>No mercenary thoughts, or baſe deſign</l>
+               <l>Of ſervile Flatt'ry, made theſe Verſes mine.</l>
+            </q>
+            <bibl>By a Lover of <hi>Caledonia,</hi> and the Muſes.</bibl>
+         </div>
+      </body>
+      <back>
+         <div type="colophon">
+            <p>
+               <hi>Edinburgh,</hi> Printed by the Heirs and Succeſſors of <hi>Andrew Anderſon,</hi> Printer to the Kin<gap reason="illegible" resp="#OXF" extent="2 letters">
+                  <desc>••</desc>
+               </gap> moſt Excellent Majeſty, 1699.</p>
+            <pb facs="tcp:171469:3" rendition="simple:additions"/>
+            <!-- PDF PAGE 45 -->
+         </div>
+      </back>
+   </text>
+</TEI>
